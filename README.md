@@ -25,13 +25,40 @@ Create a new slate with `etch([candidate1, candidate2])`, up to 5 candidates.
 Don't worry about re-voting, everything is automatically adjusted.
 
 
-Contracts referenced in this guide:
+## Contracts referenced in this guide:
 
-* Old MKR Token, `old_mkr := 0xc66ea802717bfb9833400264dd12c2bceaa34a6d`
-* MKR Token, `mkr := 0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2`
-* Redeemer, `redeemer:= 0x642ae78fafbb8032da552d619ad43f1d81e4dd7c`
-* Maker "chief" contract, `chief := 0x8e2a84d6ade1e7fffee039a35ef5f19f13057152`
-* `iou := 0x9aed7a25f2d928225e6fb2388055c7363ad6727`
-* `rollCallSlate := 0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563`
+#### Old MKR Token
+
+`old_mkr := 0xc66ea802717bfb9833400264dd12c2bceaa34a6d`
+
+Restritced ABI for `balanceOf`+`approve`:
+```
+[{"constant":true,"inputs":[{"name":"src","type":"address"}],"name":"balanceOf","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"guy","type":"address"},{"name":"wad","type":"uint256"}],"name":"approve","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"}]
+```
+
+#### MKR Token
+
+`mkr := 0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2`
+
+#### Redeemer
+
+`redeemer:= 0x642ae78fafbb8032da552d619ad43f1d81e4dd7c`
+
+Restricted ABI for `redeem`:
+```
+[{"constant":false,"inputs":[],"name":"redeem","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
+```
+
+#### Maker "chief" contract
+
+`chief := 0x8e2a84d6ade1e7fffee039a35ef5f19f13057152`
+
+#### IOU Token
+
+`iou := 0x9aed7a25f2d928225e6fb2388055c7363ad6727`
+
+#### Roll Call Slate
+
+`rollCallSlate := 0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563`
 
 
