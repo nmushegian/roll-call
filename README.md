@@ -1,21 +1,28 @@
-1) Redeem your old MKR, if you haven't already.
-1a) `oldMkr.approve(redeemer, balance);`
-1b) `redeemer.redeem(balance);`
+##### Redeem your old MKR, if you haven't already.
+1) `oldMkr.approve(redeemer, balance);`
+2) `redeemer.redeem(balance);`
 
-2) Approve the Chief to spend your MKR (and your "MKR IOU"s, while you're at it).
-2a) `mkr.approve(chief, max_u256);`
-2b) `iou.approve(chief, max_u256);`
+##### Approve the Chief to spend your MKR (and your "MKR IOU"s, while you're at it).
+1) `mkr.approve(chief, max_u256);`
+2) `iou.approve(chief, max_u256);`
 
-3) `lock` your MKR:
-3a) `chief.lock(balance);`
+##### `lock` your MKR:
+1) `chief.lock(balance);`
 
-4) `vote` for the roll call slate, which has only the 0x0 account as a candidate *
-4a) `chief.vote(rollCallSlate)`;
+##### `vote` for the roll call slate, which has only the 0x0 account as a candidate *
+1) `chief.vote(rollCallSlate)`;
 
 * you can verify this with `chief.slates(rollCallSlate, 0);` and `chief.slates(rollCallSlate, 1)`
 
-5) If you want to change your vote, just `vote(different-slate)`. Create a new slate with `etch([candidate1, candidate2])`, up to 5 candidates.
-6) When it comes time to move your MKR, just `chief.free(amount)`. Don't worry about re-voting, everything is automatically adjusted.
+##### If you want to change your vote
+1) `vote(different-slate)`.
+
+Create a new slate with `etch([candidate1, candidate2])`, up to 5 candidates.
+
+##### When it comes time to move your MKR
+1) `chief.free(amount)`.
+
+Don't worry about re-voting, everything is automatically adjusted.
 
 
 Contracts referenced in this guide:
