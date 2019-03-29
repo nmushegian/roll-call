@@ -27,7 +27,7 @@ Don't worry about re-voting, everything is automatically adjusted.
 
 Contracts referenced in this guide:
 
-* Old MKR Token, `old_mkr := 0x642ae78fafbb8032da552d619ad43f1d81e4dd7c`
+* Old MKR Token, `old_mkr := 0xc66ea802717bfb9833400264dd12c2bceaa34a6d`
 * MKR Token, `mkr := 0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2`
 * Redeemer, `redeemer:= 0x642ae78fafbb8032da552d619ad43f1d81e4dd7c`
 * Maker "chief" contract, `chief := 0x8e2a84d6ade1e7fffee039a35ef5f19f13057152`
