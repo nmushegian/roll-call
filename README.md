@@ -1,6 +1,11 @@
 MKR Roll Call - Preliminary Details, for Whales and Power Users
 ===
 
+```
+|\  /| now or
+| \/ |  never
+```
+
 * To participate in the roll call, be voting for any slate that includes address `0x0` on **23:59 UTC on April 9, 2019**.
 * You will get to etch a small section of a slab of ASCII art, which will be permanently embedded into the MCD contract.
 * An announcement will be broadcast on April 2nd.
