@@ -12,13 +12,19 @@ MKR Roll Call - Preliminary Details, for Whales and Power Users
 * This should not interfere with any other voting activity that might happen during that time - just include address `0x0` in any slate you vote for, alongside the thing you actually want passed. (The team can drop enough votes off of `0x0` if something must be passed between April 2 and April 9.)
 
 
-### Generic steps
+## Generic steps
 
-#### Redeem your old MKR, if you haven't already.
+### Redeem your old MKR, if you haven't already.
+
+Metamask+HardwareWallet:  [makerdao.com/redeem](https://makerdao.com/redeem)
+
+If you use the GUI, be sure to still verify the transactions.
 1) `oldMkr.approve(redeemer, balance);`
 2) `redeemer.redeem(balance);`
 
-Metamask+HardwareWallet:  [makerdao.com/redeem](https://makerdao.com/redeem)
+### Voting with [Chief](https://etherscan.io/address/0x8e2a84d6ade1e7fffee039a35ef5f19f13057152)
+
+A custom GUI is available at [chief.makerdao.com](https://chief.makerdao.com). Whether you use etherscan, or the chief.makerdao GUI, be sure you still verify the generated transactions:
 
 #### Approve the Chief to spend your MKR (and your "MKR IOU"s, while you're at it).
 1) `mkr.approve(chief, max_u256);`
