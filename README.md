@@ -1,4 +1,4 @@
-MKR Roll Call - Preliminary Details, for Whales and Power Users
+MKR Roll Call - Initial Details, for Whales and Power Users
 ===
 
 ```
