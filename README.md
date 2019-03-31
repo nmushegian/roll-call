@@ -40,9 +40,10 @@ Metamask+HardwareWallet:  [GOV approval](https://etherscan.io/address/0x9f8f72aa
 
 Metamask+HardwareWallet:  [Chief.lock](https://etherscan.io/address/0x8e2a84d6ade1e7fffee039a35ef5f19f13057152#writeContract)
 
-#### `vote` for the roll call slate, which has only the 0x0 account as a candidate *
+#### `vote` for any roll call slate that includes address `0x0` as a candidate
 1) `chief.vote(rollCallSlate)`;
 
+If you don't have a particular other proposal you want to support, you can use the existing ID for `[0x0]`
 ```
 rollCallSlate == 0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563
               == etch([0x0])
