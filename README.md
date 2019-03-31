@@ -1,4 +1,4 @@
-MKR Roll Call - Initial Details, for Whales and Power Users
+MKR Roll Call - Initial Details for Whales and Power Users
 ===
 
 ```
@@ -8,13 +8,13 @@ MKR Roll Call - Initial Details, for Whales and Power Users
 
 * To participate in the roll call, be voting for any slate that includes address `0x0` on **23:59 UTC on April 9, 2019**.
 * You will get to etch a small section of a slab of ASCII art, which will be permanently embedded into the MCD contract.
-* An announcement will be broadcast on April 2nd.
+* An announcement will be broadcast on April 2nd, with links to definitive versions of this guide.
 * This should not interfere with any other voting activity that might happen during that time - just include address `0x0` in any slate you vote for, alongside the thing you actually want passed. (The team can drop enough votes off of `0x0` if something must be passed between April 2 and April 9.)
 
 
 ## Generic steps
 
-### Redeem your old MKR, if you haven't already.
+#### Redeem your old MKR, if you haven't already.
 
 Metamask+HardwareWallet:  [makerdao.com/redeem](https://makerdao.com/redeem)
 
