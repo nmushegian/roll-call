@@ -44,6 +44,7 @@ Whether you use etherscan, or the chief.makerdao GUI, be sure you still verify t
 2. `iou.approve(chief, max_u256);`
 
 [IOU approval](https://etherscan.io/address/0x9aed7a25f2d928225e6fb2388055c7363ad6727b#writeContract)
+
 [GOV approval](https://etherscan.io/address/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2#writeContract)
 
 
@@ -66,6 +67,7 @@ rollCallSlate == 0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e
 you can verify this with `chief.slates(rollCallSlate, 0);` and `chief.slates(rollCallSlate, 1)`
 
 [Chief.vote via Etherscan](https://etherscan.io/address/0x8e2a84d6ade1e7fffee039a35ef5f19f13057152#writeContract)
+
 [Chief.slates via Etherscan](https://etherscan.io/address/0x8e2a84d6ade1e7fffee039a35ef5f19f13057152#readContract)
 
 #### If you want to change your vote
@@ -118,6 +120,7 @@ Restricted ABI for `redeem`:
 
 #### Roll Call Slate
 
+`rollCallSlate` is a `bytes32`, not an address
 `rollCallSlate := 0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563`
 
 
