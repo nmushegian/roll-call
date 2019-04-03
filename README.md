@@ -7,8 +7,8 @@ MKR Roll Call - Initial Details for Whales and Power Users
 ```
 
 * At **23:59 UTC on April 9, 2019**, any MKR that is voting for proposal `0x0` will be considered present for the roll call. (This means any slate that includes `0x0` as a candidate).
+* You can set your MKR to vote any time before the snapshot, just be sure to leave it there until April 10. 
 * You will get to etch a small section of a [slab of ASCII art](https://nmushegian.github.io/slab-of-art/), which will be permanently embedded into the MCD contract.
-* An announcement will be broadcast on April 2nd, with links to definitive versions of this guide.
 * This should not interfere with any other voting activity that might happen during that time - just include address `0x0` in any slate you vote for, alongside the proposal address you want passed. (The team can drop enough votes off of `0x0` if something must be passed between April 2 and April 9.)
 
 
