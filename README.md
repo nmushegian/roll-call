@@ -25,8 +25,8 @@ You can use [etherscan for the generic redeemer UI](0x642ae78fafbb8032da552d619a
 
 If you use the GUI, be sure to still verify the transactions.
 
-1) `oldMkr.approve(redeemer, balance);`
-2) `redeemer.redeem(balance);`
+1. `oldMkr.approve(redeemer, balance);`
+2. `redeemer.redeem(balance);`
 
 ### Voting with [Chief](https://etherscan.io/address/0x8e2a84d6ade1e7fffee039a35ef5f19f13057152)
 
@@ -37,20 +37,23 @@ If you use the GUI, be sure to still verify the transactions.
 Whether you use etherscan, or the chief.makerdao GUI, be sure you still verify the generated transactions:
 
 #### Approve the Chief to spend your MKR (and your "MKR IOU"s, while you're at it).
-1) `mkr.approve(chief, max_u256);`
-2) `iou.approve(chief, max_u256);`
+
+1. `mkr.approve(chief, max_u256);`
+2. `iou.approve(chief, max_u256);`
 
 [IOU approval](https://etherscan.io/address/0x9aed7a25f2d928225e6fb2388055c7363ad6727b#writeContract)
 [GOV approval](https://etherscan.io/address/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2#writeContract)
 
 
 #### `lock` your MKR:
-1) `chief.lock(balance);`
+
+1. `chief.lock(balance);`
 
 [Chief.lock via Etherscan](https://etherscan.io/address/0x8e2a84d6ade1e7fffee039a35ef5f19f13057152#writeContract)
 
 #### `vote` for any roll call slate that includes address `0x0` as a candidate
-1) `chief.vote(rollCallSlate)`;
+
+1. `chief.vote(rollCallSlate)`;
 
 If you don't have a particular other proposal you want to support, you can use the existing ID for `[0x0]`
 ```
@@ -64,14 +67,16 @@ you can verify this with `chief.slates(rollCallSlate, 0);` and `chief.slates(rol
 [Chief.slates via Etherscan](https://etherscan.io/address/0x8e2a84d6ade1e7fffee039a35ef5f19f13057152#readContract)
 
 #### If you want to change your vote
-1) `vote(different-slate)`.
+
+1. `vote(different-slate)`.
 
 Create a new slate with `etch([candidate1, candidate2])`, up to 5 candidates. Make sure your list of candidates is lexically ordered and has no repeating candidates, otherwise the contract will reject it.
 
 [Chief.vote, Chief.etch via Etherscan](https://etherscan.io/address/0x8e2a84d6ade1e7fffee039a35ef5f19f13057152#writeContract)
 
 #### When it comes time to move your MKR
-1) `chief.free(amount)`.
+
+1. `chief.free(amount)`.
 
 Don't worry about re-voting, everything is automatically adjusted.
 
