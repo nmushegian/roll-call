@@ -13,9 +13,12 @@ MKR Roll Call
 * You will get to etch a small section of a [slab of ASCII art](https://nmushegian.github.io/slab-of-art/), which will be permanently embedded into the MCD contract.
 
 ### How?
-* Anyone who is voting for address 0x0 (that is, any slate that contains address 0x0) at 2019/4/9 23:59:00 UTC will be considered present.
-* This should not interfere with any other voting activity that might happen during that time - just include address `0x0` in any slate you vote for, alongside the proposal address you want passed.
+* Anyone who is voting for *any proposal* at 2019/4/9 23:59:00 UTC will be counted as present.
+* We will manually assemble representative addresses for each voter (for example, if you use the ProxyVote contract, we'll take it's "voting key"). 
 
+## [ProxyVote contract at vote.makerdao.com](https://vote.makerdao.com)
+
+If there are any 
 
 ## Step by Step - Metamask + Hardware Wallet
 
@@ -116,7 +119,7 @@ Restricted ABI for `redeem`:
 
 #### IOU Token
 
-`iou := 0x9aed7a25f2d928225e6fb2388055c7363ad6727`
+`iou := 0x9aed7a25f2d928225e6fb2388055c7363ad6727b`
 
 #### Roll Call Slate
 
