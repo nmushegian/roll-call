@@ -18,9 +18,9 @@ MKR Roll Call
 
 ## [ProxyVote contract at vote.makerdao.com](https://vote.makerdao.com)
 
-If there are any 
+You can use the vote.makerdao.com GUI to vote on the stability fee poll on Monday, April 8th.
 
-## Step by Step - Metamask + Hardware Wallet
+## Direct Voting - Metamask + Hardware Wallet
 
 #### Redeem your old MKR, if you haven't already.
 
