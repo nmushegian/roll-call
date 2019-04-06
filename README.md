@@ -13,12 +13,12 @@ MKR Roll Call
 * You will get to etch a small section of a [slab of ASCII art](https://nmushegian.github.io/slab-of-art/), which will be permanently embedded into the MCD contract.
 
 ### How?
-* Anyone who is voting for *any proposal* at 2019/4/9 23:59:00 UTC will be counted as present.
+* Anyone who is voting for *any set of proposals* at 2019/4/9 23:59:00 UTC will be counted as present.
 * We will manually assemble representative addresses for each voter (for example, if you use the ProxyVote contract, we'll take it's "voting key"). 
 
-## [ProxyVote contract at vote.makerdao.com](https://vote.makerdao.com)
+## ProxyVote contract at vote.makerdao.com
 
-You can use the vote.makerdao.com GUI to vote on the stability fee poll on Monday, April 8th.
+You can use the [vote.makerdao.com](https://vote.makerdao.com) GUI to vote on the next stability fee poll which should become available on Monday, April 8th. Just be sure your MKR is `lock`ed and `vote`ing until April 9th has passed.
 
 ## Direct Voting - Metamask + Hardware Wallet
 
