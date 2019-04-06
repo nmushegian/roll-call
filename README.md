@@ -14,7 +14,7 @@ MKR Roll Call
 
 ### How?
 * Anyone who is voting for **any proposals** (any non-empty slate) at 2019/4/9 23:59:00 UTC will be counted as present.
-* We will manually assemble representative addresses for each voter (for example, if you use the ProxyVote contract, we'll take it's "voting key"). 
+* We will manually assemble representative addresses for each voter (for example, if you use the ProxyVote contract, we'll take it's "voting key"), then collect signed messages for your section of art.
 
 ## ProxyVote contract at vote.makerdao.com
 
