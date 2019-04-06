@@ -13,7 +13,7 @@ MKR Roll Call
 * You will get to etch a small section of a [slab of ASCII art](https://nmushegian.github.io/slab-of-art/), which will be permanently embedded into the MCD contract.
 
 ### How?
-* Anyone who is voting for *any set of proposals* at 2019/4/9 23:59:00 UTC will be counted as present.
+* Anyone who is voting for **any proposals** (any non-empty slate) at 2019/4/9 23:59:00 UTC will be counted as present.
 * We will manually assemble representative addresses for each voter (for example, if you use the ProxyVote contract, we'll take it's "voting key"). 
 
 ## ProxyVote contract at vote.makerdao.com
