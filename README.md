@@ -7,18 +7,18 @@ MKR Roll Call
 ```
 
 ### What?
-* At **23:59 UTC on April 9, 2019**, there will be an MKR voter "snapshot" to collect a list of voting addresses.
-* You can set your MKR to vote any time before the snapshot, just be sure to leave it there until April 10. 
+* At **16:00 UTC on April 11, 2019**, there will be an MKR voter "snapshot" to collect a list of voting addresses.
+* You can set your MKR to vote any time before the snapshot, just be sure to leave it there until April 11th, 16:00 UTC (the first block after this timestamp). 
 * This is optional, but recommended. Consider this the notice to MKR holders that voting has started in earnest. You also get a fun prize:
 * You will get to etch a small section of a [slab of ASCII art](https://nmushegian.github.io/slab-of-art/), which will be permanently embedded into the MCD contract.
 
 ### How?
-* Anyone who is voting for **any proposals** (any non-empty slate) at 2019/4/9 23:59:00 UTC will be counted as present.
-* We will manually assemble representative addresses for each voter (for example, if you use the ProxyVote contract, we'll take it's "voting key"), then collect signed messages for your section of art.
+* Anyone who is voting for **any proposals** (any non-empty slate) at 2019/4/11 16:00:00 UTC will be counted as present.
+* We will manually assemble representative addresses for each voter (for example, if you use the VoteProxy contract, we'll take it's "voting key"), then collect signed messages for your section of art.
 
-## ProxyVote contract at vote.makerdao.com
+## VoteProxy contract at vote.makerdao.com
 
-You can use the [vote.makerdao.com](https://vote.makerdao.com) GUI to vote on the next stability fee poll which should become available on Monday, April 8th. Just be sure your MKR is `lock`ed and `vote`ing until April 9th has passed.
+You can use the [vote.makerdao.com](https://vote.makerdao.com) GUI to vote on the current stability fee proposal (the one that ends on April 11th at 16:00 UTC). Just be sure your MKR is `lock`ed and `vote`ing until that time.
 
 ## Direct Voting - Metamask + Hardware Wallet
 
